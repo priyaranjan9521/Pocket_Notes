@@ -1,0 +1,41 @@
+.group-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group-list button {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .group-list button:hover {
+    transform: scale(1.05);
+  }
+  
+  .group-list button.active {
+    color: white;
+
+  }
+  
+  .group-list .group-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  

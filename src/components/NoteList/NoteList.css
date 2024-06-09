@@ -1,0 +1,56 @@
+
+   
+
+   .note-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 4px;
+    
+  }
+  
+  .note {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #240707;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-date {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: #f2ecec;
+    max-width: 15%;
+  }
+  
+  .note-content {
+    font-size: 1.5em;
+    color: #ede7e7;
+    
+    
+  }
+
+  .note-date-up {
+    font-size: 1em;
+    color: #e5d9d9;
+    
+  }
+  
+  .note-date-down {
+    font-size: 1em;
+    color: #dcd6d6;
+  }
+  
+  
+  .note-list::after {
+    content: "";
+    margin-bottom: 10px;
+  }
+  
+   
+  
